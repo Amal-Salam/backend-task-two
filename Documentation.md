@@ -27,7 +27,8 @@ This documentation provides detailed information on how to use the REST API for 
 
 
 
-
+## Getting Started
+   Please refer to the README.md file.
 
 ## API Endpoints
 
