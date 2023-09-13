@@ -34,7 +34,7 @@ This documentation provides detailed information on how to use the REST API for 
 To get started with this API, follow these steps:
 
 1. Clone the GitHub repository to your local machine:
- git clone https://github.com/your-username/your-api-repo.git
+ git clone https://github.com/Amal-Salam/backend-task-two/tree/main.git
 
 2. Install the required dependencies:
 
@@ -51,7 +51,7 @@ To get started with this API, follow these steps:
 The API is accessible at the following endpoint:
 
 ```
-https://yourdomain.com/api
+https://hng-backend-2.onrender.com/api
 ```
 
 ## API Endpoints
@@ -140,7 +140,7 @@ https://yourdomain.com/api
 ### Create a Person
 POST  "Content-Type: application/x-www-form-urlencoded" {
   name: Anakin Skywalker
-} https://yourdomain.com/api
+} https://hng-backend-2.onrender.com/api
 
 ### Retrieve a Person
 https://yourdomain.com/api/_id
@@ -149,10 +149,10 @@ https://yourdomain.com/api/_id
 
 PATCH "Content-Type: application/x-www-form-urlencoded"{
   name: Darth Vader
-} https://yourdomain.com/api/_id
+} https://hng-backend-2.onrender.com/api/_id
 
 ### Delete a Person
-DELETE https://yourdomain.com/api/_id
+DELETE https://hng-backend-2.onrender.com/api/_id
 
 
 ## Known Limitations
@@ -166,8 +166,8 @@ To deploy the API locally, follow the [Setup Instructions](#setup-instructions) 
 
 ## Hosting
 
-The API is hosted at `https://yourdomain.com/api`. Ensure it is accessible and working properly before deploying it to production.
+The API is hosted at `https://hng-backend-2.onrender.com/api`. Ensure it is accessible and working properly before deploying it to production.
 
-For more details, refer to the source code and UML diagrams available in the [GitHub repository](https://github.com/your-username/your-api-repo).
+For more details, refer to the source code and UML diagrams available in the [GitHub repository](https://github.com/Amal-Salam/backend-task-two/tree/main).
 
 **Note:** Replace placeholders like `your-username`, `your-api-repo`, and `yourdomain.com` with actual values in your documentation.
