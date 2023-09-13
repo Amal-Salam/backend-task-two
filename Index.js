@@ -11,8 +11,6 @@ const PORT = 3000 || process.env.PORT;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(bodyParser.json()); 
-
 //database connection
 connectDB();
 
