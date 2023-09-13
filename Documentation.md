@@ -143,7 +143,7 @@ POST  "Content-Type: application/x-www-form-urlencoded" {
 } https://hng-backend-2.onrender.com/api
 
 ### Retrieve a Person
-https://yourdomain.com/api/_id
+https://hng-backend-2.onrender.com/api/_id
 
 ### Update a Person
 
