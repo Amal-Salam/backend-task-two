@@ -60,11 +60,11 @@ https://hng-backend-2.onrender.com/api
 
 - **Endpoint:** `/api`
 - **Method:** POST
-- **Request Format:** JSON
+- **Request Format:** x-www-form-urlencoded
 
 #### Create Request
 
-```json
+```x-www-form-urlencoded
 {
   "name": "Aaron Warner"
   
@@ -73,7 +73,7 @@ https://hng-backend-2.onrender.com/api
 
 #### Create Response
 
-```json
+```x-www-form-urlencoded
 {
   "message": "Person created successfully",
   "person": {
@@ -89,7 +89,7 @@ https://hng-backend-2.onrender.com/api
 
 #### Retrieve Response
 
-```json
+```x-www-form-urlencoded
 {
   "name": "Aaron Warner"
 
@@ -100,11 +100,11 @@ https://hng-backend-2.onrender.com/api
 
 - **Endpoint:** `/api/_id`
 - **Method:** PATCH
-- **Request Format:** JSON
+- **Request Format:** x-www-form-urlencoded
 
 #### Update Request
 
-```json
+```x-www-form-urlencoded
 {
   "name": "Benjamin Thomas Barnes"
 }
@@ -112,7 +112,7 @@ https://hng-backend-2.onrender.com/api
 
 #### Update Response
 
-```json
+```x-www-form-urlencoded
 {
   "message": "Person updated successfully",
   "person": {
