@@ -7,52 +7,27 @@ This documentation provides detailed information on how to use the REST API for 
 
 ## Table of Contents
 
-1. [Getting Started](#getting-started)
-   - [Setup Instructions](#setup-instructions)
-   - [API Endpoint](#api-endpoint)
-2. [API Endpoints](#api-endpoints)
+
+1. [API Endpoints](#api-endpoints)
    - [Create a Person](#create-a-person)
    - [Retrieve a Person](#retrieve-a-person)
    - [Update a Person](#update-a-person)
    - [Delete a Person](#delete-a-person)
-3. [Request and Response Formats](#request-and-response-formats)
+2. [Request and Response Formats](#request-and-response-formats)
    - [Create Request](#create-request)
    - [Create Response](#create-response)
    - [Retrieve Response](#retrieve-response)
    - [Update Request](#update-request)
    - [Update Response](#update-response)
    - [Delete Response](#delete-response)
-4. [Sample Usage](#sample-usage)
-5. [Known Limitations](#known-limitations)
-6. [Local Deployment](#local-deployment)
-7. [Hosting](#hosting)
-
-## Getting Started
-
-### Setup Instructions
-
-To get started with this API, follow these steps:
-
-1. Clone the GitHub repository to your local machine:
- git clone https://github.com/Amal-Salam/backend-task-two/tree/main.git
-
-2. Install the required dependencies:
-
-   cd backend-task-two
-   npm install
-
-3. Set up your MongoDB database and configure the connection in the `config.js` file.
-
-4. Start the server:
+3. [Sample Usage](#sample-usage)
+4. [Known Limitations](#known-limitations)
+5. [Local Deployment](#local-deployment)
+6. [Hosting](#hosting)
 
 
-### API Endpoint
 
-The API is accessible at the following endpoint:
 
-```
-https://hng-backend-2.onrender.com/api
-```
 
 ## API Endpoints
 
