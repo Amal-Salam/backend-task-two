@@ -38,7 +38,7 @@ To get started with this API, follow these steps:
 
 2. Install the required dependencies:
 
-   cd your-api-repo
+   cd backend-task-two
    npm install
 
 3. Set up your MongoDB database and configure the connection in the `config.js` file.
@@ -170,4 +170,3 @@ The API is hosted at `https://hng-backend-2.onrender.com/api`. Ensure it is acce
 
 For more details, refer to the source code and UML diagrams available in the [GitHub repository](https://github.com/Amal-Salam/backend-task-two/tree/main).
 
-**Note:** Replace placeholders like `your-username`, `your-api-repo`, and `yourdomain.com` with actual values in your documentation.
