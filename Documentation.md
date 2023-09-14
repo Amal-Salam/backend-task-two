@@ -36,11 +36,11 @@ This documentation provides detailed information on how to use the REST API for 
 
 - **Endpoint:** `/api`
 - **Method:** POST
-- **Request Format:** X-WWW-FORM-URLENCODED
+- **Request Format:** JSON or X-WWW-FORM-URLENCODED 
 
 #### Create Request
 
-```X-WWW-FORM-URLENCODED
+``` JSON or X-WWW-FORM-URLENCODED
 {
   "name": "Aaron Warner"
   
@@ -49,7 +49,7 @@ This documentation provides detailed information on how to use the REST API for 
 
 #### Create Response
 
-```X-WWW-FORM-URLENCODED
+```JSON or X-WWW-FORM-URLENCODED
 {
   "message": "Person created successfully",
   "person": {
@@ -65,7 +65,7 @@ This documentation provides detailed information on how to use the REST API for 
 
 #### Retrieve Response
 
-```X-WWW-FORM-URLENCODED
+``` JSON or X-WWW-FORM-URLENCODED
 {
   "name": "Aaron Warner"
 
@@ -76,11 +76,11 @@ This documentation provides detailed information on how to use the REST API for 
 
 - **Endpoint:** `/api/_id`
 - **Method:** PATCH
-- **Request Format:** X-WWW-FORM-URLENCODED
+- **Request Format:** JSON or X-WWW-FORM-URLENCODED
 
 #### Update Request
 
-```X-WWW-FORM-URLENCODED
+```JSON or X-WWW-FORM-URLENCODED
 {
   "name": "Benjamin Thomas Barnes"
 }
@@ -88,7 +88,7 @@ This documentation provides detailed information on how to use the REST API for 
 
 #### Update Response
 
-```X-WWW-FORM-URLENCODED
+```JSON or X-WWW-FORM-URLENCODED
 {
   "message": "Person updated successfully",
   "person": {
@@ -105,7 +105,7 @@ This documentation provides detailed information on how to use the REST API for 
 
 #### Delete Response
 
-```json
+```
 {
   "message": "Person deleted successfully"
 }
@@ -114,7 +114,7 @@ This documentation provides detailed information on how to use the REST API for 
 ## Sample Usage via Postman
 
 ### Create a Person
-POST  "Content-Type: application/x-www-form-urlencoded" {
+POST  "Content-Type: application/x-www-form-urlencoded" or application/json {
   name: Anakin Skywalker
 } https://hng-backend-2.onrender.com/api
 
@@ -123,7 +123,7 @@ https://hng-backend-2.onrender.com/api/_id
 
 ### Update a Person
 
-PATCH "Content-Type: application/x-www-form-urlencoded"{
+PATCH "Content-Type: application/x-www-form-urlencoded or application/json"{
   name: Darth Vader
 } https://hng-backend-2.onrender.com/api/_id
 
