@@ -9,6 +9,7 @@ const connectDB = require('./config/db');
 const app = express();
 const PORT = 3000 || process.env.PORT;
 
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //database connection
