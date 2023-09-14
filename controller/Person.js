@@ -15,7 +15,7 @@ exports.create = async (req, res) => {
   await person
     .save()
     .then((data) => {
-      res.send({
+      res.status(201).json({
         message: 'Person created successfully!!',
         person: data,
       });
